@@ -6,8 +6,261 @@
     <title>Hashworks Framework</title>
     <link rel="stylesheet" href="hashGrid.css">
     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
 </head>
 <body>
-    <h1>Hashworks hashGrid</h1>
+    <div class=" row center-xs hashGrid__top">
+    <h1 class="hashGrid__title col-xs-12">Hashworks Hashgrid</h1>
+    <p class="hashGrid__tagline col-xs-12">A grid system used by <strong>Hashworks.co</strong> based on the flex display property.</p>
+    </div>
+    <div class="container container-fluid">
+        <h1>Responsive</h1>
+        <p>Responsive modifiers enable specifying different column sizes, offsets, alignment and distribution at xs, sm, md , lg & xl viewport widths.</p>
+        <div class="hashGrid__code">
+            <code> &lt;div class="row">
+            &lt;div class="col-xs-12
+                        col-sm-8
+                        col-md-6
+                        col-lg-4">
+                &lt;div class="box">Responsive&lt;/div>
+            &lt;/div>
+        &lt;/div>
+            </code>
+        </div>
+        <h1>Fluid</h1>
+        <p>Percent based widths allow fluid resizing of columns and rows.</p>
+        <div class="hashGrid__code">
+            <code> .col-xs-6 {
+                flex-basis: 50%;
+              }
+            </code>
+        </div>
+        <h1>Simple Syntax</h1>
+        <p>All you need to remember is row, column, content.</p>
+        <div class="hashGrid__code">
+            <code> &lt;div class="row">
+                &lt;div class="col-xs-12">
+                    &lt;div class="box">12&lt;/div>
+                &lt;/div>
+            &lt;/div>
+            </code>
+        </div>
+        <h1>Auto Width</h1>
+        <p>Add any number of auto sizing columns to a row. Let the grid figure it out.</p>
+        <div class="hashGrid__code">
+            <code> &lt;div class="row">
+                &lt;div class="col-xs">
+                    &lt;div class="box">auto&lt;/div>
+                &lt;/div>
+            &lt;/div>
+            </code>
+        </div>
+        <h1>Nested Grids</h1>
+        <p>Nest grids inside grids inside grids.</p>
+        <div class="hashGrid__code">
+            <code> 
+            &lt;div class="row">
+                &lt;div class="col-xs">
+                    &lt;div class="box">
+                        &lt;div class="row">
+                            &lt;div class="col-xs">
+                                &lt;div class="box">auto&lt;/div>
+                            &lt;/div>
+                        &lt;/div>
+                    &lt;/div>
+                &lt;/div>
+            &lt;/div>
+            </code>
+        </div>
+        <h1>Alignment</h1>
+        <p>Add classes to align elements to the start or end of a row as well as the top, bottom, or center of a column</p>
+        <h2>.start-</h2>
+        <div class="hashGrid__code">
+            <code> 
+            &lt;div class="row start-xs">
+                &lt;div class="col-xs-6">
+                    &lt;div class="box">
+                        start
+                    &lt;/div>
+                &lt;/div>
+            &lt;/div>
+            </code>
+        </div>
+        <h2>.center-</h2>
+        <div class="hashGrid__code">
+            <code> 
+                    &lt;div class="row center-xs">
+                    &lt;div class="col-xs-6">
+                        &lt;div class="box">
+                            start
+                        &lt;/div>
+                    &lt;/div>
+                &lt;/div>
+            </code>
+        </div>
+        <h2>.end-</h2>
+        <div class="hashGrid__code">
+            <code> 
+                    &lt;div class="row end-xs">
+                    &lt;div class="col-xs-6">
+                        &lt;div class="box">
+                            start
+                        &lt;/div>
+                    &lt;/div>
+                &lt;/div>
+            </code>
+        </div>
+        <h2>.top-</h2>
+        <div class="hashGrid__code">
+            <code> 
+            &lt;div class="row top-xs">
+                &lt;div class="col-xs-6">
+                    &lt;div class="box">
+                        top
+                    &lt;/div>
+                &lt;/div>
+            &lt;/div>
+            </code>
+        </div>
+        <h2>.middle-</h2>
+        <div class="hashGrid__code">
+            <code> 
+                    &lt;div class="row middle-xs">
+                    &lt;div class="col-xs-6">
+                        &lt;div class="box">
+                            middle
+                        &lt;/div>
+                    &lt;/div>
+                &lt;/div>
+            </code>
+        </div>
+        <h2>.bottom-</h2>
+        <div class="hashGrid__code">
+            <code> 
+                    &lt;div class="row bottom-xs">
+                    &lt;div class="col-xs-6">
+                        &lt;div class="box">
+                        bottom
+                        &lt;/div>
+                    &lt;/div>
+                &lt;/div>
+            </code>
+        </div>
+        <h1>Distribution</h1>
+        <p>Add classes to distribute the contents of a row or column.</p>
+        <h2>.around-</h2>
+        <div class="hashGrid__code">
+            <code> 
+            &lt;div class="row around-xs">
+                &lt;div class="col-xs-2">
+                    &lt;div class="box">
+                            around
+                    &lt;/div>
+                &lt;/div>
+                &lt;div class="col-xs-2">
+                    &lt;div class="box">
+                            around
+                    &lt;/div>
+                &lt;/div>
+                &lt;div class="col-xs-2">
+                    &lt;div class="box">
+                            around
+                    &lt;/div>
+                &lt;/div>
+            &lt;/div>
+            </code>
+        </div>
+        <h2>.between-</h2>
+        <div class="hashGrid__code">
+            <code> 
+                &lt;div class="row between-xs">
+                    &lt;div class="col-xs-2">
+                        &lt;div class="box">
+                                between
+                        &lt;/div>
+                    &lt;/div>
+                    &lt;div class="col-xs-2">
+                        &lt;div class="box">
+                        between
+                        &lt;/div>
+                    &lt;/div>
+                    &lt;div class="col-xs-2">
+                        &lt;div class="box">
+                        between
+                        &lt;/div>
+                    &lt;/div>
+                &lt;/div>
+            </code>
+        </div>
+        <h1>Reordering</h1>
+        <p>Add classes to reorder columns.</p>
+        <h2>.first-</h2>
+        <div class="hashGrid__code">
+            <code> 
+            &lt;div class="row">
+                &lt;div class="col-xs-2">
+                    &lt;div class="box">
+                            1
+                    &lt;/div>
+                &lt;/div>
+                &lt;div class="col-xs-2">
+                    &lt;div class="box">
+                            2
+                    &lt;/div>
+                &lt;/div>
+                &lt;div class="col-xs-2 first-xs">
+                    &lt;div class="box">
+                            3
+                    &lt;/div>
+                &lt;/div>
+            &lt;/div>
+            </code>
+        </div>
+        <h2>.last-</h2>
+        <div class="hashGrid__code">
+            <code> 
+                &lt;div class="row">
+                    &lt;div class="col-xs-2 last-xs">
+                        &lt;div class="box">
+                                1
+                        &lt;/div>
+                    &lt;/div>
+                    &lt;div class="col-xs-2">
+                        &lt;div class="box">
+                                2
+                        &lt;/div>
+                    &lt;/div>
+                    &lt;div class="col-xs-2">
+                        &lt;div class="box">
+                                3
+                        &lt;/div>
+                    &lt;/div>
+                &lt;/div>
+            </code>
+        </div>
+        <h1>Reversing</h1>
+        <h2>.reverse</h2>
+        <div class="hashGrid__code">
+            <code> 
+            &lt;div class="row reverse">
+                &lt;div class="col-xs-2">
+                    &lt;div class="box">
+                            1
+                    &lt;/div>
+                &lt;/div>
+                &lt;div class="col-xs-2">
+                    &lt;div class="box">
+                            2
+                    &lt;/div>
+                &lt;/div>
+                &lt;div class="col-xs-2">
+                    &lt;div class="box">
+                            3
+                    &lt;/div>
+                &lt;/div>
+            &lt;/div>
+            </code>
+        </div>
+    </div>
 </body>
 </html>

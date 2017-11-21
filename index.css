@@ -1,0 +1,35 @@
+body{
+    background-color: #EDEDEE;
+    font-family: 'Open Sans', sans-serif;
+}
+.container h2{
+    color: #007FFF;
+}
+.container h1{
+    color: #3A445F;
+}
+.hashGrid__top{
+    background-color: white;
+}
+.hashGrid__title{
+    font-size: 60px;
+    color: #00C57F;
+    margin-bottom: 0px;
+    font-weight: 800;
+}
+.hashGrid__tagline{
+    font-size: 24px;
+    color:#3A445F;
+    margin-top: 0px;
+}
+.hashGrid__code{
+    overflow-x: auto;
+    padding: 1.25em;
+    border: 1px solid #e6e6e6;
+    margin: 1.6em 0;
+    font-size: 18px;
+    color: darkblue;
+    background: #fcfcfc;
+    white-space: pre;
+    word-wrap: normal;
+}
