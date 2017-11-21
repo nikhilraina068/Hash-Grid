@@ -212,7 +212,7 @@ body{
 
 @media only screen and (min-width: 768px) {
   .container {
-    width: 49rem;
+    width: 47rem;
   }
   .col-sm,
   .col-sm-1,
@@ -358,7 +358,7 @@ body{
 
 @media only screen and (min-width: 1025px) {
   .container {
-    width: 65rem;
+    width: 63rem;
   }
   .col-md,
   .col-md-1,
@@ -650,7 +650,7 @@ body{
 
 @media only screen and (min-width: 1867px) {
   .container {
-    width: 76rem;
+    width: 115rem;
   }
   .col-xl,
   .col-xl-1,
