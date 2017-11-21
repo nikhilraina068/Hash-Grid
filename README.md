@@ -3,9 +3,9 @@ Easy to use.
 
 Grid based on the flex display property.
 
-It is based on the resolution which is according to all the devices in the market.
+Made based on the resolution of the devices available in the market.
 
-for:
+Resolution supported:
 
 Mobile(xs):- max-width:767px;
 
