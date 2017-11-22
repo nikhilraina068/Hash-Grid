@@ -3,7 +3,7 @@ Easy to use.
 
 Grid based on the flex display property.
 
-Made based on the resolution of the devices available in the market.
+Based on the resolution of the devices available in the market.
 
 Resolution supported:
 
