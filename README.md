@@ -11,9 +11,9 @@ Mobile(xs):- max-width:767px;
 
 Tablets(sm):- 768px-1024px;
 
-Small Desktop(md):- 1025px-1366px;
+Small Desktop(md):- 1025px-1365px;
 
-Desktop(lg):- 1367px-1866px;
+Desktop(lg):- 1366px-1866px;
 
 Large Screen(xl):- 1867px-above;
 
